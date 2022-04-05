@@ -40,7 +40,7 @@ public class Program {
 				System.out.print("Manufacture date (DD/MM/YYYY): ");
 				Date manufactureDate = sdf.parse(sc.next());
 				list.add(new UsedProduct(name, price, manufactureDate));
-			} else if (ch == 'i') {
+			} else {
 				System.out.print("Customs fee: ");
 				double customsFee = sc.nextDouble();
 				list.add(new ImportedProduct(name, price, customsFee));
