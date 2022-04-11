@@ -15,7 +15,7 @@ public class Program {
 		
 		try {
 			System.out.println("Entre com os dados da conta: ");
-			System.out.print("Número: ");
+			System.out.print("NÃºmero: ");
 			int number = sc.nextInt();
 			sc.nextLine();
 			System.out.print("Nome: ");
@@ -37,9 +37,7 @@ public class Program {
 		} catch (DomainException e) {
 			System.out.println(e.getMessage());
 		}
-		
-		
-		
+			
 		sc.close();
 	}
 
