@@ -1,5 +1,3 @@
-//Versãqo simplificada, se acontecer o erro o programa encerra!
-
 package application;
 
 import java.util.Locale;
